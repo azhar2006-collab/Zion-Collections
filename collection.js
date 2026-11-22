@@ -1,0 +1,25 @@
+// Edit the categories and pieces here. Image files are kept in assets/.
+const jewelleryCategories = [
+  { name: 'Earrings', cover: 'temple-jhumka' },
+  { name: 'Necklaces', cover: 'emerald-necklace' },
+  { name: 'Bangles', cover: 'filigree-bangles' },
+  { name: 'Rings', cover: 'lotus-ring' },
+  { name: 'Anklets', cover: 'silver-anklets' },
+  { name: 'Hair ornaments', cover: 'floral-tikka' }
+];
+
+const jewelleryPieces = [
+  { id: 'rani-jhumka', name: 'The Rani Jhumka', category: 'Earrings', palette: 'Rani pink, gold & ivory', silhouette: 'Bell drop', description: 'A ruby-toned floral stud meets an openwork bell, with a fringe of little pearls that softens its sculptural outline.', alt: 'Floral gold-toned jhumka earrings with raspberry-red centres and pearl fringes on pink silk' },
+  { id: 'emerald-necklace', name: 'The Emerald Drop', category: 'Necklaces', palette: 'Emerald green & gold', silhouette: 'Collar necklace', description: 'A teardrop of deep green anchors a curved row of clear kundan-style stones. A close neckline gives the pendant room to stand out.', alt: 'Gold-toned necklace edged with clear teardrop stones and a green central pendant' },
+  { id: 'filigree-bangles', name: 'The Gul Bangle Stack', category: 'Bangles', palette: 'Antique gold & ruby', silhouette: 'Stacked bands', description: 'Floral scrolls wind around three broad bands. Worn together, the repeating ruby-toned accents form a rhythm around the wrist.', alt: 'Three ornate gold-toned bangles with red accents stacked on a stone plinth' },
+  { id: 'lotus-ring', name: 'The Lotus Ring', category: 'Rings', palette: 'Ruby, ivory & gold', silhouette: 'Floral cluster', description: 'Ivory and wine-coloured petals surround a red centre. The raised flower gives this ring a distinct profile from every angle.', alt: 'A large flower-shaped ring with ruby-toned and clear petals' },
+  { id: 'silver-anklets', name: 'The Ghungroo Pair', category: 'Anklets', palette: 'Oxidised silver tone', silhouette: 'Bell fringe', description: 'A row of small bells borders an intricate silver-toned chain. The closely spaced drops give the pair a softly scalloped edge.', alt: 'Two silver-toned anklets with tiny ghungroo bells on blue-grey linen' },
+  { id: 'floral-tikka', name: 'The Mehr Tikka', category: 'Hair ornaments', palette: 'Deep rose & gold', silhouette: 'Maang tikka', description: 'A fine chain holds a floral medallion framed by pale stones. A single rose-coloured drop follows the line of a centre parting.', alt: 'A floral gold-toned maang tikka with a dark pink teardrop on plum velvet' },
+  { id: 'temple-jhumka', name: 'The Temple Bells', category: 'Earrings', palette: 'Antique gold & crimson', silhouette: 'Temple jhumka', description: 'An ornate temple-inspired top balances a rounded bell. Little ivory beads pick out the lower edge of the richly patterned domes.', alt: 'Gold-toned temple jhumkas with crimson details and small hanging pearls' },
+  { id: 'pearl-hoops', name: 'The Pearl Hoops', category: 'Earrings', palette: 'Ivory & warm gold', silhouette: 'Fringed hoops', description: 'Small pearl drops hang from slim gold-toned circles. The open centre keeps the silhouette light and easy to pair with a simple neckline.', alt: 'Thin gold-toned hoops with a fringe of pearl drops in a ceramic dish' },
+  { id: 'pearl-necklace', name: 'The Double Strand', category: 'Necklaces', palette: 'Cream & champagne', silhouette: 'Layered strands', description: 'Two rows of luminous pearls trace soft, overlapping curves. Their restrained shape brings a quiet finish to the neckline.', alt: 'Two strands of creamy pearls on softly folded ivory satin' },
+  { id: 'gold-cuffs', name: 'The Fold Cuffs', category: 'Bangles', palette: 'Polished gold tone', silhouette: 'Open cuffs', description: 'Two broad cuffs trace clean arcs around the wrist. Smooth, uninterrupted surfaces let the changing light become the detail.', alt: 'Two polished open gold-toned cuffs resting on warm terracotta' },
+  { id: 'ruby-ring', name: 'The Rani Solitaire', category: 'Rings', palette: 'Berry pink & gold', silhouette: 'Oval solitaire', description: 'A deep berry-coloured oval sits inside an irregular gold-toned rim. A fine band leaves the colour of the centre stone in focus.', alt: 'Oval raspberry-coloured cocktail ring photographed on pink stone' },
+  { id: 'disc-anklets', name: 'The Sun Disc Anklets', category: 'Anklets', palette: 'Soft gold tone', silhouette: 'Charm chain', description: 'Small flat discs are spaced along delicate chains. Each charm catches a little light while the chain follows the curve of the ankle.', alt: 'Fine gold-toned anklet chains with scattered disc charms' },
+  { id: 'pearl-comb', name: 'The Blossom Comb', category: 'Hair ornaments', palette: 'Pearl white & gold', silhouette: 'Floral hair comb', description: 'Pearl petals and fine gold-toned leaves branch across one side of the comb. Tucked into an updo, the flowers follow the sweep of the hair.', alt: 'Gold-toned hair comb with pearl flowers and sculpted leaves on blush fabric' }
+];

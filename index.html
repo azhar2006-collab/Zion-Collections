@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en-IN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fbf7ef">
+  <meta name="description" content="Explore ZION's jewellery and ornament portfolio, from sculptural jhumkas and kundan necklaces to delicate anklets and hair ornaments.">
+  <title>ZION | Jewellery &amp; Ornaments</title>
+  <link rel="icon" href="assets/butterfly.png">
+  <link rel="preload" as="image" href="assets/rani-jhumka.webp">
+  <link rel="preload" as="font" type="font/ttf" href="assets/editorial-serif.ttf" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="collection.js" defer></script>
+  <script src="script.js" defer></script>
+</head>
+<body id="home">
+  <svg class="symbols" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.8"/><path d="m16 16 5 5"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M20.4 4.9c-2.4-2.4-6-1.7-8.4 1.2-2.4-2.9-6-3.6-8.4-1.2-2.3 2.4-1.7 6.1.5 8.5 2.4 2.7 5.3 5 7.9 7.2 2.6-2.2 5.5-4.5 7.9-7.2 2.2-2.4 2.8-6.1.5-8.5Z"/></symbol>
+    <symbol id="i-left" viewBox="0 0 24 24"><path d="m14.5 5.5-6.5 6.5 6.5 6.5"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path d="m9.5 5.5 6.5 6.5-6.5 6.5"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="m5 5 14 14M19 5 5 19"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></symbol>
+    <symbol id="i-grid" viewBox="0 0 24 24"><rect x="3.5" y="3.5" width="6" height="6"/><rect x="14.5" y="3.5" width="6" height="6"/><rect x="3.5" y="14.5" width="6" height="6"/><rect x="14.5" y="14.5" width="6" height="6"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M3 7h18M3 12h18M3 17h18"/></symbol>
+    <symbol id="i-gem" viewBox="0 0 24 24"><path d="m3 9 4.5-5h9L21 9l-9 11L3 9Zm0 0h18m-12.5 0L12 20l3.5-11L12 4Z"/></symbol>
+  </svg>
+  <div class="preloader" aria-hidden="true"><img src="assets/zion-logo.png" width="123" height="75" alt=""><span></span></div>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="brand" href="#home" aria-label="ZION home"><img src="assets/zion-logo.png" width="123" height="75" alt="ZION"><span>JEWELLERY<br>&amp; ORNAMENTS</span></a>
+      <nav class="primary-nav" aria-label="Main navigation" id="main-nav"><a href="#home" class="active" aria-current="location">Home</a><a href="#collections">Collections</a><a href="#story">Our story</a></nav>
+      <div class="tools">
+        <button class="icon-button" type="button" data-open="search" aria-label="Search jewellery"><svg><use href="#i-search"/></svg></button>
+        <button class="icon-button saved-button" type="button" data-open="saved" aria-label="View saved pieces"><svg><use href="#i-heart"/></svg><span class="saved-count" hidden>0</span></button>
+        <button class="icon-button menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="main-nav"><svg><use href="#i-menu"/></svg></button>
+      </div>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="shell hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="tiny-rule"></span>The signature edit</p>
+          <h1 id="hero-title">An ode to<br><em>adornment.</em></h1>
+          <p class="hero-intro">Discover a world of jhumkas, jewels and delicate ornaments, from everyday gold tones to pieces for a grand occasion.</p>
+          <a class="button primary" href="#collections">Explore collections <svg aria-hidden="true"><use href="#i-gem"/></svg></a>
+          <div class="edition" aria-hidden="true"><b>✧</b><span>ZION</span><i></i><span>Jewellery portfolio</span></div>
+        </div>
+        <div class="campaign" role="region" aria-label="Signature jewellery highlights">
+          <img id="campaign-image" src="assets/rani-jhumka.webp" alt="Gold-toned floral jhumkas with pearl fringes against rani-pink silk" width="1448" height="1086" fetchpriority="high">
+          <div class="campaign-shade"></div>
+          <div class="campaign-content">
+            <button type="button" class="campaign-caption" data-featured aria-label="View The Rani Jhumka"><span class="image-label">In focus</span><span id="campaign-title">The Rani Jhumka</span></button>
+            <div class="campaign-controls"><button class="round" type="button" data-slide="-1" aria-label="Previous featured piece"><svg><use href="#i-left"/></svg></button><span id="campaign-index">01 / 03</span><button class="round" type="button" data-slide="1" aria-label="Next featured piece"><svg><use href="#i-right"/></svg></button></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <nav class="category-strip" aria-label="Jump to a jewellery category"><div class="shell strip-inner" id="category-links"></div></nav>
+    <section class="collections shell" id="collections" aria-labelledby="collections-title">
+      <div class="section-heading"><div><p class="eyebrow"><span class="tiny-rule"></span>By category</p><h2 id="collections-title">The <em>collections</em></h2></div>
+        <button type="button" class="text-button" data-open="all"><svg aria-hidden="true"><use href="#i-grid"/></svg>View all pieces</button>
+      </div>
+      <div class="category-grid" id="category-grid"></div>
+      <noscript><p>Explore earrings, necklaces, bangles, rings, anklets and hair ornaments. Enable JavaScript to browse individual pieces.</p><img src="assets/emerald-necklace.webp" width="280" alt="Emerald-toned pendant necklace"></noscript>
+    </section>
+    <section class="story" id="story" aria-labelledby="story-title">
+      <div class="shell story-inner">
+        <figure><img src="assets/pearl-comb.webp" width="510" height="510" loading="lazy" alt="Pearl flower details on a gold-toned hair comb, on blush fabric"></figure>
+        <div class="story-copy"><p class="eyebrow"><span class="tiny-rule"></span>Our story</p><h2 id="story-title">The details<br><em>we return to.</em></h2><p>A pearl at the edge of a jhumka. The curve of a bangle. A single flash of rani pink. The ZION edit begins with these small details and the way they bring an entire look together.</p><p>Our jewellery portfolio brings ornate Indian silhouettes into conversation with quieter, everyday forms. Explore the pieces and keep the ones that feel like you.</p><button class="text-button" type="button" data-open="saved"><svg aria-hidden="true"><use href="#i-heart"/></svg>My saved pieces</button></div>
+      </div>
+    </section>
+  </main>
+  <footer><div class="shell footer-inner"><a href="#home" aria-label="ZION home"><img src="assets/zion-logo.png" width="94" height="57" alt="ZION"></a><p>ZION Jewellery &amp; Ornaments<br><small>Concept collection · Illustrative imagery</small></p><a class="top-link" href="#home">Back to top</a></div></footer>
+  <dialog id="gallery-dialog" aria-labelledby="dialog-title"><div class="dialog-shell"><header class="dialog-header"><div><p class="eyebrow">ZION jewellery</p><h2 id="dialog-title">The collection</h2></div><button class="icon-button close-dialog" aria-label="Close window" type="button"><svg><use href="#i-x"/></svg></button></header><div id="dialog-body"></div></div></dialog>
+  <div class="sr-only" id="announcer" role="status" aria-live="polite"></div>
+</body>
+</html>
